@@ -1,0 +1,170 @@
+body {
+    background-color: #4d564c;
+    padding: 10px; 
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
+
+/* BACKGROUNDS!!! */
+.main-sketchbook{
+    position: absolute;
+    width: 900px;
+    height: 630px;
+    background-color:#000000;
+    border-radius: 50px;
+    color: #fff;
+    z-index: 10;
+    left: 80px;
+    top: 30px;
+}
+
+/* TEXT AND TITLE COVERS!!! */
+.main-sketchbook-page-left{
+    position: absolute;
+    width: 420px;
+    height: 590px;
+    background-color:#CDC8AF;
+    border-radius: 50px;
+    left: 100px;
+    top: 50px;
+    z-index: 10;
+}
+
+.main-sketchbook-page-right{
+    position: absolute;
+    width: 420px;
+    height: 590px;
+    background-color:#CDC8AF;
+    border-radius: 50px;
+    left: 540px;
+    top: 50px;
+    z-index: 10;
+}
+
+/* IMAGE FITS!!! */
+.main-sketchbook-cover-left{
+    position: absolute;
+    width: 320px;
+    height: 560px;
+    background-color:#373f38;
+    border-radius: 50px;
+    left: 170px;
+    top: 65px;
+    z-index: 10;
+}
+
+.main-sketchbook-cover-right{
+    position: absolute;
+    width: 320px;
+    height: 560px;
+    background-color:#373f38;
+    border-radius: 50px;
+    left: 570px;
+    top: 65px;
+    z-index: 10;
+}
+
+/* BUTTONS */
+.boring-button {
+    position: absolute;
+    color: black; 
+    display:inline-block;
+    text-decoration: none;
+    transition: all 0.8s ease;
+    z-index: 1000;
+    width: 60px;
+    top: 780px;
+    left: 10px;
+  }
+  
+/* DETAILS */
+.sketchbook-details-one{
+    position: absolute;
+    height: 15px;
+    width: 70px;
+    background-color: #777575;
+    border-radius: 50%;
+    z-index: 10;
+    left: 496px;
+    top: 100px;
+}
+
+.sketchbook-details-two{
+    position: absolute;
+    height: 15px;
+    width: 70px;
+    background-color: #777575;
+    border-radius: 50%;
+    z-index: 10;
+    left: 496px;
+    top: 130px;
+}
+
+.sketchbook-details-three{
+    position: absolute;
+    height: 15px;
+    width: 70px;
+    background-color: #777575;
+    border-radius: 50%;
+    z-index: 10;
+    left: 496px;
+    top: 560px;
+}
+
+.sketchbook-details-four{
+    position: absolute;
+    height: 15px;
+    width: 70px;
+    background-color: #777575;
+    border-radius: 50%;
+    z-index: 10;
+    left: 496px;
+    top: 590px;
+} 
+
+.stars-def{
+    position: absolute;
+    display:inline-block;
+    z-index: 100;
+    width: 350px;
+    top: 0px;
+    right: 10px;
+  }
+  
+.moon-def{
+    position: absolute;
+    display:inline-block;
+    z-index: 100;
+    width: 1300px;
+    top: 740px;
+    right: 30px;
+}
+
+.home-button {
+    position: absolute;
+    display:inline-block;
+    z-index: 1000;
+    width: 300px;
+    top: 765px;
+    left: 20px;
+}
+
+.sketchbook-left {
+    position: absolute;
+    display:inline-block;
+    z-index: 1000;
+    width: 36px;
+    top: 310px;
+    left: 110px;
+}
+
+.sketchbook-right {
+    position: absolute;
+    display:inline-block;
+    z-index: 1000;
+    width: 36px;
+    top: 310px;
+    right: 416px;
+}
+

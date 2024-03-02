@@ -1,0 +1,251 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee+Shade:regular);
+
+body {
+  background-color: #4d564c;
+  padding: 10px; 
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  color: #121312;
+}
+
+/* WORDS!!! */
+.title-name{
+font-family: 'Bungee Shade', sans-serif;
+color: black;
+font-size: 50px;
+position: absolute;
+z-index: 100;
+left: 86px;
+top: -10px;
+}
+
+.title-name-sterre{
+  font-family: 'Bungee inline', sans-serif;
+  color:#CDC8AF;
+  font-size: 50px;
+  position: absolute;
+  z-index: 50;
+  left: 90px;
+  top: -9px;
+  letter-spacing: 5px;
+}
+
+.title-name-romeijn{
+  font-family: 'Bungee inline', sans-serif;
+  color:#CDC8AF;
+  font-size: 50px;
+  position: absolute;
+  z-index: 50;
+  left: 341px;
+  top: -9px;
+  letter-spacing: 5px;
+}
+
+/* BACKGROUNDS!!! */
+.main-title-bg{
+  position: absolute;
+  width: 700px;
+  height: 600px;
+  background-color:#CDC8AF;
+  border-radius: 50px;
+  z-index: 10;
+
+}
+
+.guitar-bg{
+position: absolute;
+width: 140px;
+height: 260px;
+background-color:#CDC8AF;
+border-radius: 30px;
+right: 460px;
+z-index: 10;
+
+}
+
+.slideshow-bg{
+position: absolute;
+width: 400px;
+height: 300px;
+background-color:#CDC8AF;
+border-radius: 40px;
+right: 200px;
+top: 310px;
+z-index: 10;
+
+}
+
+.project-EP{
+position: absolute;
+width: 300px;
+height: 70px;
+background-color:#CDC8AF;
+border-radius: 20px;
+color: #fff;
+top: 630px;
+left: 40px;
+z-index: 10;
+}
+
+.EP-link{
+position: absolute;
+font-family: monospace;
+color: black;
+top: 7px;
+left: 42px;
+z-index: 900;
+}
+
+.project-sow{
+position: absolute;
+width: 300px;
+height: 70px;
+background-color:#CDC8AF;
+border-radius: 20px;
+color: #fff;
+top: 630px;
+left: 380px;
+z-index: 10;
+}
+
+.sow-link{
+position: absolute;
+font-family: monospace;
+color: black;
+top: 7px;
+left: 30px;
+z-index: 900;
+}
+
+/* TEXT AND TITLE COVERS!!! */
+.main-title{
+position: absolute;
+width: 660px;
+height: 110px;
+background-color:#5a6659;
+border-radius: 20px;
+color: #f3efdc;
+left: 30px;
+top: 30px;
+z-index: 10;
+
+}
+
+.main-text{
+position: absolute;
+width: 660px;
+height: 440px;
+background-color:#5a6659;
+border-radius: 20px;
+left: 30px;
+top: 150px;
+z-index: 10;
+}
+
+.ab-me-text{
+position: absolute; 
+font-family: monospace;
+color: #121312;
+left: 10px;
+right: 10px;
+z-index: 10;
+/* font-family: 'comfortaa', sans-serif; */
+}
+
+
+/* IMAGE FITS!!! */
+.slideshow-fit{
+position: absolute;
+width: 270px;
+height: 270px;
+background-color:#373f38;
+border-radius: 20px;
+right: 265px;
+top: 325px;
+z-index: 10;
+}
+
+.guitar{
+position: absolute;
+z-index: 10;
+border-radius: 20px;
+width: 100%;
+height: 100%;
+object-fit: fill;
+border-style: solid;
+border-color: #121312;
+border-width: 2px;
+}
+
+.guitar-fit{
+position: absolute;
+width: 115px;
+height: 235px;
+background-color:#373f38;
+border-radius: 20px;
+right: 474px;
+top: 21px;
+z-index: 10;
+}
+
+/* DETAILS */
+
+.stars-def{
+position: absolute;
+display:inline-block;
+z-index: 100;
+width: 350px;
+top: 0px;
+right: 10px;
+}
+
+.moon-def{
+position: absolute;
+display:inline-block;
+z-index: 100;
+width: 1300px;
+top: 740px;
+right: 30px;
+}
+
+/* BUTTONS */
+
+/* .sketchbook-button{
+color: #fff;
+z-index: 100;
+top: 770px;
+right: 20px;
+} */
+
+.sketchbook-button {
+position: absolute;
+display:inline-block;
+z-index: 1000;
+width: 300px;
+top: 765px;
+right: 20px;
+}
+
+h1 {
+position: absolute;
+z-index: 200;
+}
+
+.left-button{
+  position: absolute;
+  display:inline-block;
+  z-index: 1000;
+  width: 40px;
+  top: 435px;
+  left: 780px;
+}
+
+.right-button{
+  position: absolute;
+  display:inline-block;
+  z-index: 1000;
+  width: 40px;
+  top: 435px;
+  left: 1115px;
+}
